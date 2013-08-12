@@ -1,0 +1,16 @@
+
+
+
+#quinary .ui-grid-b div{
+	text-align: center;
+}
+
+#cta{
+	background-image:url(../images/dragon3.gif);
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+#home .head{
+	text-align: left;
+}
