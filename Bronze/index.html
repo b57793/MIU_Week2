@@ -44,39 +44,33 @@
 			</div>
 <!-- Whenever linking to an item you do not want jQM to link to add data-ajax="false" to the link that takes you to the page -->
 		<div data-role="content" style="clear:both">
-			<ul data-role="listview" data-inset="true" data-filter="true">
-				<li data-role="list-divider">Browse</li>
-				<li>
-					<a href="#name" data-transition="slide">
-						<h3>Name</h3>
-						<p>Browse items by name</p>
-					</a>
-				</li>
-				<li>
-					<a href="error.html">
-						<h3>Archetype</h3>
-						<p>Browse items by archetype</p>
-					</a>
-				</li>
-				<li>
-					<a href="error.html">
-						<h3>Type</h3>
-						<p>Browse items by type</p>
-					</a>
-				</li>
-				<li>
-					<a href="error.html">
-						<h3>Classification</h3>
-						<p>Browse items by classification</p>
-					</a>
-				</li>
-				<li>
-					<a href="error.html">
-						<h3>Quality</h3>
-						<p>Browse items by quality</p>
-					</a>
-				</li>
-			</ul>
+	        <ul data-role="listview" data-inset="true" data-filter="true">
+	            <li><a href="#name" data-transition="slide">
+	                <img src="images/dragon3.gif">
+	                <h2>Name</h2>
+	                <p>Browse items by name</p>
+	            </a></li>
+	            <li><a href="error.html">
+	                <img src="images/dragon3.gif">
+	                <h2>Archetype</h2>
+	                <p>Browse items by archetype</p>
+	            </a></li>
+	            <li><a href="error.html">
+	                <img src="images/dragon3.gif">
+	                <h2>Type</h2>
+	                <p>Browse items by type</p>
+	            </a></li>
+	            <li><a href="error.html">
+	                <img src="images/dragon3.gif">
+	                <h2>Classification</h2>
+	                <p>Browse items by classification</p>
+	            </a></li>
+	            <li><a href="error.html">
+	                <img src="images/dragon3.gif">
+	                <h2>Quality</h2>
+	                <p>Browse items by quality</p>
+	            </a></li>
+	        </ul>
 		</div>
 		<div data-role="footer" data-position="fixed" data-id="bottomnav">
 			<div data-role="navbar">
@@ -89,65 +83,27 @@
 		</div>
 	</div>
 <!-- Name page -->
-		<div data-role="page" id="name" data-add-back-btn="true">
+	<div data-role="page" id="name" data-add-back-btn="true">
 		<div data-role="header" data-position="fixed" data-id="head" >
 			<h1>Items by Name</h1>
 		</div> 
 		<div data-role="content">
-<!-- Accordian Menu -->
-			<div data-role="collapsible-set" >
-				<div data-role="collapsible" data-collapsed="true" data-theme="b">
-					<h3>Mega Cleaver</h3>
-					<p>Archetype: Warrior</p>
-					<p>Type: Weapon</p>
-					<p>Classification: 2 handed</p>
-					<p>Quality: Legendary</p>
-					<p>Sell Value: 300</p>
-					<p>Date Stashed: 2013-06-24</p>
-					<p>Dropped From: Dark Butcher</p>
-				</div>
-				<div data-role="collapsible" data-collapsed="true" data-theme="b">
-					<h3>Uber Stabber</h3>
-					<p>Archetype: Rogue</p>
-					<p>Type: Weapon</p>
-					<p>Classification: 1 handed</p>
-					<p>Quality: Magical</p>
-					<p>Sell Value: 350</p>
-					<p>Date Stashed: 2013-06-22</p>
-					<p>Dropped From: Sneaky  McDodge 'n Stuff</p>
-					</div>
-				<div data-role="collapsible" data-collapsed="true" data-theme="b">
-					<h3>Robes of WIN</h3>
-					<p>Archetype: Mage</p>
-					<p>Type: Armor</p>
-					<p>Classification: Light Armor</p>
-					<p>Quality: Legendary</p>
-					<p>Sell Value: 300</p>
-					<p>Date Stashed: 2013-06-23</p>
-					<p>Dropped From: That one guy who did bad things</p>
-					</div>
-				<div data-role="collapsible" data-collapsed="true" data-theme="b">
-					<h3>Light Cleaver</h3>
-					<p>Archetype: Warrior</p>
-					<p>Type: Weapon</p>
-					<p>Classification: 2 handed</p>
-					<p>Quality: Legendary</p>
-					<p>Sell Value: 300</p>
-					<p>Date Stashed: 2013-06-24</p>
-					<p>Dropped From: Butch</p>
-					</div>
-				<div data-role="collapsible" data-collapsed="true" data-theme="b">
-					<h3>Void Stabber</h3>
-					<p>Archetype: Rogue</p>
-					<p>Type: Weapon</p>
-					<p>Classification: 1 handed</p>
-					<p>Quality: Magical</p>
-					<p>Sell Value: 350</p>
-					<p>Date Stashed: 2013-06-22</p>
-					<p>Dropped From: Sneakers</p>
-					</div>
-			</div>
-		</div>
+			<ul data-role="listview" data-inset="true" data-filter="true">
+				<li data-role="list-divider">Weapons</li>
+				<li>
+					<a href="#cleaver" data-transition="slide"><h3>Mega Cleaver</h3></a>
+				</li>
+				<li>
+					<a href="#stabber" data-transition="slide"><h3>Uber Stabber</h3></a>
+				</li>
+				<li data-role="list-divider">Armor</li>
+				<li>
+					<a href="#robes" data-transition="slide">
+						<h3>Robes of WIN</h3>
+					</a>
+				</li>
+			</ul>
+		</div>	
 		<div data-role="footer" data-position="fixed" data-id="bottomnav">
 			<div data-role="navbar">
 				<ul>
@@ -195,55 +151,6 @@
     				<div class="ui-block-d"><div class="ui-bar ui-bar-c"><img src="images/dragon3.gif" alt="Dragon" align="center" width="100" height="100"></div></div>
     			</div>
 			</form>
-	        <ul data-role="listview" data-inset="true">
-	            <li><a href="#">
-	                <img src="images/dragon3.gif">
-	                <h2>iOS 6.1</h2>
-	                <p>Apple released iOS 6.1</p>
-	                <p class="ui-li-aside">iOS</p>
-	            </a></li>
-	            <li><a href="#">
-	                <img src="images/dragon3.gif">
-	                <h2>BlackBerry 10</h2>
-	                <p>BlackBerry launched the Z10 and Q10 with the new BB10 OS</p>
-	                <p class="ui-li-aside">BlackBerry</p>
-	            </a></li>
-	            <li><a href="#">
-	                <img src="images/dragon3.gif">
-	                <h2>WP 7.8</h2>
-	                <p>Nokia rolls out WP 7.8 to Lumia 800</p>
-	                <p class="ui-li-aside">Windows Phone</p>
-	            </a></li>
-	            <li><a href="#">
-	                <img src="images/dragon3.gif">
-	                <h2>Galaxy</h2>
-	                <p>New Samsung Galaxy Express</p>
-	                <p class="ui-li-aside">Samsung</p>
-	            </a></li>
-	            <li><a href="#">
-	                <img src="images/dragon3.gif">
-	                <h2>Nexus 7</h2>
-	                <p>Rumours about new full HD Nexus 7</p>
-	                <p class="ui-li-aside">Android</p>
-	            </a></li>
-	            <li><a href="#">
-	                <img src="images/dragon3.gif">
-	                <h2>Firefox OS</h2>
-	                <p>ZTE to launch Firefox OS smartphone at MWC</p>
-	                <p class="ui-li-aside">Firefox</p>
-	            </a></li>
-	            <li><a href="#">
-	                <img src="images/dragon3.gif">
-	                <h2>Tizen</h2>
-	                <p>First Samsung phones with Tizen can be expected in 2013</p>
-	                <p class="ui-li-aside">Tizen</p>
-	            </a></li>
-	            <li><a href="#">
-	                <h2>Symbian</h2>
-	                <p>Nokia confirms the end of Symbian</p>
-	                <p class="ui-li-aside">Symbian</p>
-	            </a></li>
-	        </ul>
 		</div>
 		<div data-role="footer" data-position="fixed" data-id="bottomnav">
 			<div data-role="navbar">
@@ -255,7 +162,82 @@
 			</div>
 		</div>
 	</div>
-	<!-- JavaScript under here -->
+	</div>
+<!-- Cleaver drill down page -->
+	<div data-role="page" id="cleaver" data-add-back-btn="true">
+		<div data-role="header" data-position="fixed" data-id="head" >
+			<h1>Items by Name</h1>
+		</div> 
+		<div>
+			<h3>Mega Cleaver</h3>
+			<p>Archetype: Warrior</p>
+			<p>Type: Weapon</p>
+			<p>Classification: 2 handed</p>
+			<p>Quality: Legendary</p>
+			<p>Sell Value: 300</p>
+			<p>Date Stashed: 2013-06-24</p>
+			<p>Dropped From: Dark Butcher</p>
+		</div>
+		<div data-role="footer" data-position="fixed" data-id="bottomnav">
+		<div data-role="navbar">
+			<ul>
+				<li><a href="#home" data-icon="home" data-transition="slide">Home</a></li>
+				<li><a href="#about" data-icon="info" data-transition="slide">About</a></li>
+				<li><a href="#gallery" data-icon="grid" data-transition="slide">Gallery</a></li>
+			</ul>
+		</div>
+	</div>
+	</div>
+<!-- Stabber drill down page -->
+	<div data-role="page" id="stabber" data-add-back-btn="true">
+		<div data-role="header" data-position="fixed" data-id="head" >
+			<h1>Items by Name</h1>
+		</div> 
+		<div>
+			<h3>Uber Stabber</h3>
+			<p>Archetype: Rogue</p>
+			<p>Type: Weapon</p>
+			<p>Classification: 1 handed</p>
+			<p>Quality: Magical</p>
+			<p>Sell Value: 350</p>
+			<p>Date Stashed: 2013-06-22</p>
+			<p>Dropped From: Sneaky  McDodge 'n Stuff</p>		
+		</div>
+		<div data-role="footer" data-position="fixed" data-id="bottomnav">
+		<div data-role="navbar">
+			<ul>
+				<li><a href="#home" data-icon="home" data-transition="slide">Home</a></li>
+				<li><a href="#about" data-icon="info" data-transition="slide">About</a></li>
+				<li><a href="#gallery" data-icon="grid" data-transition="slide">Gallery</a></li>
+			</ul>
+		</div>
+	</div>
+	</div>
+<!-- Robes drill down page -->
+	<div data-role="page" id="robes" data-add-back-btn="true">
+		<div data-role="header" data-position="fixed" data-id="head" >
+			<h1>Items by Name</h1>
+		</div> 
+		<div>
+			<h3>Robes of WIN</h3>
+			<p>Archetype: Mage</p>
+			<p>Type: Armor</p>
+			<p>Classification: Light Armor</p>
+			<p>Quality: Legendary</p>
+			<p>Sell Value: 300</p>
+			<p>Date Stashed: 2013-06-23</p>
+			<p>Dropped From: That one guy who did bad things</p>
+		</div>
+		<div data-role="footer" data-position="fixed" data-id="bottomnav">
+		<div data-role="navbar">
+			<ul>
+				<li><a href="#home" data-icon="home" data-transition="slide">Home</a></li>
+				<li><a href="#about" data-icon="info" data-transition="slide">About</a></li>
+				<li><a href="#gallery" data-icon="grid" data-transition="slide">Gallery</a></li>
+			</ul>
+		</div>
+	</div>
+<!-- JavaScript under here -->
 	<script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
 	<script src="http://code.jquery.com/mobile/1.3.2/jquery.mobile-1.3.2.min.js"></script>
 	<script type="text/javascript" src="js/main.js"></script>
